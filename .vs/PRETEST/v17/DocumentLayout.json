@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|c:\\users\\cry30\\desktop\\neat\\arran\\code\\arran_pretest_re_v0\\c#_pretest\\fttest\\testprocess\\pre\\arran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\pre\\arran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\testprocess\\testprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\testprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\udfs\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\udfs\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\class\\classfileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\class\\classfileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\appconfig\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\appconfig\\globalconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\udfs\\udf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\udfs\\udf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\testprocess\\rst\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\rst\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\fga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\fga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\testprocess\\pre\\arran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\pre\\arran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\testprocess\\pre\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\pre\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\fttest\\testprocess\\tv1\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB04EE4-BC08-4ED5-8A90-1E063288FC42}|FTTEST\\PRETEST.csproj|solutionrelative:fttest\\testprocess\\tv1\\telly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UDF.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\UDFs\\UDF.cs",
+              "RelativeDocumentMoniker": "FTTEST\\UDFs\\UDF.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\UDFs\\UDF.cs",
+              "RelativeToolTip": "FTTEST\\UDFs\\UDF.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T04:13:16.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormSetting.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormSetting.cs",
+              "RelativeDocumentMoniker": "FTTEST\\FormSetting.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormSetting.cs",
+              "RelativeToolTip": "FTTEST\\FormSetting.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T06:09:44.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\UDFs\\API.cs",
+              "RelativeDocumentMoniker": "FTTEST\\UDFs\\API.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\UDFs\\API.cs",
+              "RelativeToolTip": "FTTEST\\UDFs\\API.cs",
+              "ViewState": "AgIAAKMMAAAAAAAAAAApwKwMAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T04:27:57.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Arran.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "RelativeToolTip": "FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:24:01.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormMain.cs",
+              "RelativeDocumentMoniker": "FTTEST\\FormMain.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormMain.cs",
+              "RelativeToolTip": "FTTEST\\FormMain.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:50:54.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalConfig.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\AppConfig\\GlobalConfig.cs",
+              "RelativeDocumentMoniker": "FTTEST\\AppConfig\\GlobalConfig.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\AppConfig\\GlobalConfig.cs",
+              "RelativeToolTip": "FTTEST\\AppConfig\\GlobalConfig.cs",
+              "ViewState": "AgIAALIBAAAAAAAAAAAnwMABAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T04:13:26.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassFileIO.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\Class\\ClassFileIO.cs",
+              "RelativeDocumentMoniker": "FTTEST\\Class\\ClassFileIO.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\Class\\ClassFileIO.cs",
+              "RelativeToolTip": "FTTEST\\Class\\ClassFileIO.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAnwGwBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T04:13:32.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FGA.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FGA.cs",
+              "RelativeDocumentMoniker": "FTTEST\\FGA.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FGA.cs",
+              "RelativeToolTip": "FTTEST\\FGA.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:52:32.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Arran.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\PRE\\Arran.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Arran.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "FTTEST\\TestProcess\\PRE\\Arran.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:52:23.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormSetting.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormSetting.cs",
+              "RelativeDocumentMoniker": "FTTEST\\FormSetting.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormSetting.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "FTTEST\\FormSetting.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:43:02.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestProcess.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\TestProcess.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\TestProcess.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\TestProcess.cs",
+              "RelativeToolTip": "FTTEST\\TestProcess\\TestProcess.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T01:09:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Telly.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Telly.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\PRE\\Telly.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\PRE\\Telly.cs",
+              "RelativeToolTip": "FTTEST\\TestProcess\\PRE\\Telly.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAE4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:35:19.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Telly.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\TV1\\Telly.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\TV1\\Telly.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\TV1\\Telly.cs",
+              "RelativeToolTip": "FTTEST\\TestProcess\\TV1\\Telly.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAxwEUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:31:26.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Telly.cs",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\RST\\Telly.cs",
+              "RelativeDocumentMoniker": "FTTEST\\TestProcess\\RST\\Telly.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\TestProcess\\RST\\Telly.cs",
+              "RelativeToolTip": "FTTEST\\TestProcess\\RST\\Telly.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAIwNQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:30:51.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormMain.cs",
+              "RelativeDocumentMoniker": "FTTEST\\FormMain.cs",
+              "ToolTip": "C:\\Users\\cry30\\Desktop\\Neat\\Arran\\Code\\Arran_PRETEST_Re_V0\\C#_PRETEST\\FTTEST\\FormMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "FTTEST\\FormMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:20:50.343Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1266,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

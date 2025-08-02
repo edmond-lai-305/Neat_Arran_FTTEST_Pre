@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PRETEST.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PRETEST_WebReference_AVTC_webservice" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.100.72:2001/AVTC_webservice.asmx</Value>
+    </Setting>
+    <Setting Name="PRETEST_WebReference1_AVTC_webservice" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.100.72:2001/AVTC_webservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

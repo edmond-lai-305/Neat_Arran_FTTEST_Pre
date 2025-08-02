@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="get_product_h">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="get_product_hResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="get_product_hResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_EM_BU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_trid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_workorder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_model" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_bu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_x" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_y" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_lv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_okng" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_eventtime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_EM_BUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="INS_EM_BUResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UPD_EM_BU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_bu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_x" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_y" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_lv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_eventtime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_trid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UPD_EM_BUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UPD_EM_BUResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_EM_BU">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_con" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_EM_BUResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QRY_EM_BUResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_WBER">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_meseid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pf" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_WBERResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SD_WBERResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_STCK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_meseid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_user" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_STCKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SD_STCKResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_TVDR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_meseid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TYPE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DV_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SD_TVDRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SD_TVDRResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="get_test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_sql" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="get_testResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="get_testResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_DC_CHECK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_trid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_workorder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_pn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_op" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_info" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_okng" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_eventtime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_st_code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_DC_CHECKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="INS_DC_CHECKResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_DC_CHECK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="con" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_DC_CHECKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QRY_DC_CHECKResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_EMP_ID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="card_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_EMP_IDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QRY_EMP_IDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_HDCP_key">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_barcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_HDCP_keyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_HDCP_keyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Check_HDCP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_barcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bksv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_used_flag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Check_HDCPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Check_HDCPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadADCValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_barcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_LINE_CODE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_PROG_INFO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_PROG_STA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_OKNG" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadADCValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadADCValueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CHK_MES_ROUTE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_ST_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_SN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CHK_MES_ROUTEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CHK_MES_ROUTEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_MES_STATION">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_ST_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_SN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="x_defect" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="INS_MES_STATIONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="INS_MES_STATIONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_DIXIE_MAC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="use_mode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_DIXIE_MACResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_DIXIE_MACResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UPD_DIXIE_MAC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="use_mode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UPD_DIXIE_MACResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UPD_DIXIE_MACResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_sn_kppn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="x_sn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QRY_sn_kppnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QRY_sn_kppnResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="get_product_hSoapIn">
+    <wsdl:part name="parameters" element="tns:get_product_h" />
+  </wsdl:message>
+  <wsdl:message name="get_product_hSoapOut">
+    <wsdl:part name="parameters" element="tns:get_product_hResponse" />
+  </wsdl:message>
+  <wsdl:message name="INS_EM_BUSoapIn">
+    <wsdl:part name="parameters" element="tns:INS_EM_BU" />
+  </wsdl:message>
+  <wsdl:message name="INS_EM_BUSoapOut">
+    <wsdl:part name="parameters" element="tns:INS_EM_BUResponse" />
+  </wsdl:message>
+  <wsdl:message name="UPD_EM_BUSoapIn">
+    <wsdl:part name="parameters" element="tns:UPD_EM_BU" />
+  </wsdl:message>
+  <wsdl:message name="UPD_EM_BUSoapOut">
+    <wsdl:part name="parameters" element="tns:UPD_EM_BUResponse" />
+  </wsdl:message>
+  <wsdl:message name="QRY_EM_BUSoapIn">
+    <wsdl:part name="parameters" element="tns:QRY_EM_BU" />
+  </wsdl:message>
+  <wsdl:message name="QRY_EM_BUSoapOut">
+    <wsdl:part name="parameters" element="tns:QRY_EM_BUResponse" />
+  </wsdl:message>
+  <wsdl:message name="SD_WBERSoapIn">
+    <wsdl:part name="parameters" element="tns:SD_WBER" />
+  </wsdl:message>
+  <wsdl:message name="SD_WBERSoapOut">
+    <wsdl:part name="parameters" element="tns:SD_WBERResponse" />
+  </wsdl:message>
+  <wsdl:message name="SD_STCKSoapIn">
+    <wsdl:part name="parameters" element="tns:SD_STCK" />
+  </wsdl:message>
+  <wsdl:message name="SD_STCKSoapOut">
+    <wsdl:part name="parameters" element="tns:SD_STCKResponse" />
+  </wsdl:message>
+  <wsdl:message name="SD_TVDRSoapIn">
+    <wsdl:part name="parameters" element="tns:SD_TVDR" />
+  </wsdl:message>
+  <wsdl:message name="SD_TVDRSoapOut">
+    <wsdl:part name="parameters" element="tns:SD_TVDRResponse" />
+  </wsdl:message>
+  <wsdl:message name="get_testSoapIn">
+    <wsdl:part name="parameters" element="tns:get_test" />
+  </wsdl:message>
+  <wsdl:message name="get_testSoapOut">
+    <wsdl:part name="parameters" element="tns:get_testResponse" />
+  </wsdl:message>
+  <wsdl:message name="INS_DC_CHECKSoapIn">
+    <wsdl:part name="parameters" element="tns:INS_DC_CHECK" />
+  </wsdl:message>
+  <wsdl:message name="INS_DC_CHECKSoapOut">
+    <wsdl:part name="parameters" element="tns:INS_DC_CHECKResponse" />
+  </wsdl:message>
+  <wsdl:message name="QRY_DC_CHECKSoapIn">
+    <wsdl:part name="parameters" element="tns:QRY_DC_CHECK" />
+  </wsdl:message>
+  <wsdl:message name="QRY_DC_CHECKSoapOut">
+    <wsdl:part name="parameters" element="tns:QRY_DC_CHECKResponse" />
+  </wsdl:message>
+  <wsdl:message name="QRY_EMP_IDSoapIn">
+    <wsdl:part name="parameters" element="tns:QRY_EMP_ID" />
+  </wsdl:message>
+  <wsdl:message name="QRY_EMP_IDSoapOut">
+    <wsdl:part name="parameters" element="tns:QRY_EMP_IDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_HDCP_keySoapIn">
+    <wsdl:part name="parameters" element="tns:Get_HDCP_key" />
+  </wsdl:message>
+  <wsdl:message name="Get_HDCP_keySoapOut">
+    <wsdl:part name="parameters" element="tns:Get_HDCP_keyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Check_HDCPSoapIn">
+    <wsdl:part name="parameters" element="tns:Check_HDCP" />
+  </wsdl:message>
+  <wsdl:message name="Check_HDCPSoapOut">
+    <wsdl:part name="parameters" element="tns:Check_HDCPResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadADCValueSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadADCValue" />
+  </wsdl:message>
+  <wsdl:message name="UploadADCValueSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadADCValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="CHK_MES_ROUTESoapIn">
+    <wsdl:part name="parameters" element="tns:CHK_MES_ROUTE" />
+  </wsdl:message>
+  <wsdl:message name="CHK_MES_ROUTESoapOut">
+    <wsdl:part name="parameters" element="tns:CHK_MES_ROUTEResponse" />
+  </wsdl:message>
+  <wsdl:message name="INS_MES_STATIONSoapIn">
+    <wsdl:part name="parameters" element="tns:INS_MES_STATION" />
+  </wsdl:message>
+  <wsdl:message name="INS_MES_STATIONSoapOut">
+    <wsdl:part name="parameters" element="tns:INS_MES_STATIONResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_DIXIE_MACSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_DIXIE_MAC" />
+  </wsdl:message>
+  <wsdl:message name="GET_DIXIE_MACSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_DIXIE_MACResponse" />
+  </wsdl:message>
+  <wsdl:message name="UPD_DIXIE_MACSoapIn">
+    <wsdl:part name="parameters" element="tns:UPD_DIXIE_MAC" />
+  </wsdl:message>
+  <wsdl:message name="UPD_DIXIE_MACSoapOut">
+    <wsdl:part name="parameters" element="tns:UPD_DIXIE_MACResponse" />
+  </wsdl:message>
+  <wsdl:message name="QRY_sn_kppnSoapIn">
+    <wsdl:part name="parameters" element="tns:QRY_sn_kppn" />
+  </wsdl:message>
+  <wsdl:message name="QRY_sn_kppnSoapOut">
+    <wsdl:part name="parameters" element="tns:QRY_sn_kppnResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AVTC_webserviceSoap">
+    <wsdl:operation name="get_product_h">
+      <wsdl:input message="tns:get_product_hSoapIn" />
+      <wsdl:output message="tns:get_product_hSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="INS_EM_BU">
+      <wsdl:input message="tns:INS_EM_BUSoapIn" />
+      <wsdl:output message="tns:INS_EM_BUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UPD_EM_BU">
+      <wsdl:input message="tns:UPD_EM_BUSoapIn" />
+      <wsdl:output message="tns:UPD_EM_BUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EM_BU">
+      <wsdl:input message="tns:QRY_EM_BUSoapIn" />
+      <wsdl:output message="tns:QRY_EM_BUSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SD_WBER">
+      <wsdl:input message="tns:SD_WBERSoapIn" />
+      <wsdl:output message="tns:SD_WBERSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SD_STCK">
+      <wsdl:input message="tns:SD_STCKSoapIn" />
+      <wsdl:output message="tns:SD_STCKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SD_TVDR">
+      <wsdl:input message="tns:SD_TVDRSoapIn" />
+      <wsdl:output message="tns:SD_TVDRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="get_test">
+      <wsdl:input message="tns:get_testSoapIn" />
+      <wsdl:output message="tns:get_testSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="INS_DC_CHECK">
+      <wsdl:input message="tns:INS_DC_CHECKSoapIn" />
+      <wsdl:output message="tns:INS_DC_CHECKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QRY_DC_CHECK">
+      <wsdl:input message="tns:QRY_DC_CHECKSoapIn" />
+      <wsdl:output message="tns:QRY_DC_CHECKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EMP_ID">
+      <wsdl:input message="tns:QRY_EMP_IDSoapIn" />
+      <wsdl:output message="tns:QRY_EMP_IDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_HDCP_key">
+      <wsdl:input message="tns:Get_HDCP_keySoapIn" />
+      <wsdl:output message="tns:Get_HDCP_keySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Check_HDCP">
+      <wsdl:input message="tns:Check_HDCPSoapIn" />
+      <wsdl:output message="tns:Check_HDCPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadADCValue">
+      <wsdl:input message="tns:UploadADCValueSoapIn" />
+      <wsdl:output message="tns:UploadADCValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CHK_MES_ROUTE">
+      <wsdl:input message="tns:CHK_MES_ROUTESoapIn" />
+      <wsdl:output message="tns:CHK_MES_ROUTESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="INS_MES_STATION">
+      <wsdl:input message="tns:INS_MES_STATIONSoapIn" />
+      <wsdl:output message="tns:INS_MES_STATIONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_DIXIE_MAC">
+      <wsdl:input message="tns:GET_DIXIE_MACSoapIn" />
+      <wsdl:output message="tns:GET_DIXIE_MACSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UPD_DIXIE_MAC">
+      <wsdl:input message="tns:UPD_DIXIE_MACSoapIn" />
+      <wsdl:output message="tns:UPD_DIXIE_MACSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QRY_sn_kppn">
+      <wsdl:input message="tns:QRY_sn_kppnSoapIn" />
+      <wsdl:output message="tns:QRY_sn_kppnSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AVTC_webserviceSoap" type="tns:AVTC_webserviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="get_product_h">
+      <soap:operation soapAction="http://tempuri.org/get_product_h" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_EM_BU">
+      <soap:operation soapAction="http://tempuri.org/INS_EM_BU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UPD_EM_BU">
+      <soap:operation soapAction="http://tempuri.org/UPD_EM_BU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EM_BU">
+      <soap:operation soapAction="http://tempuri.org/QRY_EM_BU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_WBER">
+      <soap:operation soapAction="http://tempuri.org/SD_WBER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_STCK">
+      <soap:operation soapAction="http://tempuri.org/SD_STCK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_TVDR">
+      <soap:operation soapAction="http://tempuri.org/SD_TVDR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get_test">
+      <soap:operation soapAction="http://tempuri.org/get_test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_DC_CHECK">
+      <soap:operation soapAction="http://tempuri.org/INS_DC_CHECK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_DC_CHECK">
+      <soap:operation soapAction="http://tempuri.org/QRY_DC_CHECK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EMP_ID">
+      <soap:operation soapAction="http://tempuri.org/QRY_EMP_ID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_HDCP_key">
+      <soap:operation soapAction="http://tempuri.org/Get_HDCP_key" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Check_HDCP">
+      <soap:operation soapAction="http://tempuri.org/Check_HDCP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadADCValue">
+      <soap:operation soapAction="http://tempuri.org/UploadADCValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CHK_MES_ROUTE">
+      <soap:operation soapAction="http://tempuri.org/CHK_MES_ROUTE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_MES_STATION">
+      <soap:operation soapAction="http://tempuri.org/INS_MES_STATION" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_DIXIE_MAC">
+      <soap:operation soapAction="http://tempuri.org/GET_DIXIE_MAC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UPD_DIXIE_MAC">
+      <soap:operation soapAction="http://tempuri.org/UPD_DIXIE_MAC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_sn_kppn">
+      <soap:operation soapAction="http://tempuri.org/QRY_sn_kppn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AVTC_webserviceSoap12" type="tns:AVTC_webserviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="get_product_h">
+      <soap12:operation soapAction="http://tempuri.org/get_product_h" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_EM_BU">
+      <soap12:operation soapAction="http://tempuri.org/INS_EM_BU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UPD_EM_BU">
+      <soap12:operation soapAction="http://tempuri.org/UPD_EM_BU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EM_BU">
+      <soap12:operation soapAction="http://tempuri.org/QRY_EM_BU" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_WBER">
+      <soap12:operation soapAction="http://tempuri.org/SD_WBER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_STCK">
+      <soap12:operation soapAction="http://tempuri.org/SD_STCK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SD_TVDR">
+      <soap12:operation soapAction="http://tempuri.org/SD_TVDR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get_test">
+      <soap12:operation soapAction="http://tempuri.org/get_test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_DC_CHECK">
+      <soap12:operation soapAction="http://tempuri.org/INS_DC_CHECK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_DC_CHECK">
+      <soap12:operation soapAction="http://tempuri.org/QRY_DC_CHECK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_EMP_ID">
+      <soap12:operation soapAction="http://tempuri.org/QRY_EMP_ID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_HDCP_key">
+      <soap12:operation soapAction="http://tempuri.org/Get_HDCP_key" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Check_HDCP">
+      <soap12:operation soapAction="http://tempuri.org/Check_HDCP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadADCValue">
+      <soap12:operation soapAction="http://tempuri.org/UploadADCValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CHK_MES_ROUTE">
+      <soap12:operation soapAction="http://tempuri.org/CHK_MES_ROUTE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="INS_MES_STATION">
+      <soap12:operation soapAction="http://tempuri.org/INS_MES_STATION" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_DIXIE_MAC">
+      <soap12:operation soapAction="http://tempuri.org/GET_DIXIE_MAC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UPD_DIXIE_MAC">
+      <soap12:operation soapAction="http://tempuri.org/UPD_DIXIE_MAC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QRY_sn_kppn">
+      <soap12:operation soapAction="http://tempuri.org/QRY_sn_kppn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AVTC_webservice">
+    <wsdl:port name="AVTC_webserviceSoap" binding="tns:AVTC_webserviceSoap">
+      <soap:address location="http://10.2.100.72:2001/AVTC_webservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AVTC_webserviceSoap12" binding="tns:AVTC_webserviceSoap12">
+      <soap12:address location="http://10.2.100.72:2001/AVTC_webservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

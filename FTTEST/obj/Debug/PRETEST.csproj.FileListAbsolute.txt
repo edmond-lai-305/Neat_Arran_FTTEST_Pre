@@ -1,0 +1,235 @@
+D:\C#Code\roy.luo\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\C#Code\roy.luo\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\C#Code\roy.luo\PRETEST\FTTEST\bin\Debug\Interop.SDriver.dll
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\Interop.SDriver.dll
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.ResolveComReference.cache
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.Cache
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.csprojResolveAssemblyReference.cache
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\C#Code\roy.luo\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\C#Code\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\C#Code\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\C#Code\PRETEST\FTTEST\bin\Debug\Interop.SDriver.dll
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.csprojResolveAssemblyReference.cache
+D:\C#Code\PRETEST\FTTEST\obj\Debug\Interop.SDriver.dll
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.ResolveComReference.cache
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.Cache
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+D:\C#Code\PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+D:\C#Code\PRETEST\FTTEST\bin\Debug\PRETEST.application
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+D:\C#Code\PRETEST\FTTEST\obj\Debug\PRETEST.application
+D:\C#Code\NEW_TE\PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+D:\C#Code\NEW_TE\PRETEST\FTTEST\bin\Debug\PRETEST.application
+D:\C#Code\NEW_TE\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\C#Code\NEW_TE\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\C#Code\NEW_TE\PRETEST\FTTEST\bin\Debug\Interop.SDriver.dll
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.csprojResolveAssemblyReference.cache
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\Interop.SDriver.dll
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.ResolveComReference.cache
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.Cache
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.application
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\C#Code\NEW_TE\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\PRETEST.application
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\Interop.SDriver.dll
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\Interop.SDriver.dll
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.ResolveComReference.cache
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.Cache
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.application
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+D:\C#Code\avtc\PRETEST\FTTEST\bin\Debug\PRETEST.exe.config
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.csprojAssemblyReference.cache
+D:\C#Code\avtc\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.CoreCompileInputs.cache
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.AssemblyReference.cache
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.cache
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.CoreCompileInputs.cache
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe.config
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.application
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.application
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Buffers.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Memory.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Json.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.ValueTuple.dll
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Buffers.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Memory.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Json.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.ValueTuple.xml
+C:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.Up2Date
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe.config
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.application
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Buffers.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Memory.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Json.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.ValueTuple.dll
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Buffers.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Memory.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Text.Json.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\bin\Debug\System.ValueTuple.xml
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.AssemblyReference.cache
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.exe.config
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.cache
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.CoreCompileInputs.cache
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.application
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.csproj.Up2Date
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\Reggie\3.Telly\PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe.config
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\PRETEST.application
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Buffers.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Memory.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Text.Json.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.ValueTuple.dll
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Buffers.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Memory.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Text.Json.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\bin\Debug\System.ValueTuple.xml
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.AssemblyReference.cache
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.exe.config
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.cache
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.CoreCompileInputs.cache
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.application
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.Up2Date
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.exe
+D:\Reggie\6. Arran\C#_PRETEST\FTTEST\obj\Debug\PRETEST.pdb
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe.config
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe.manifest
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\PRETEST.application
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\PRETEST.exe
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\PRETEST.pdb
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Buffers.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Memory.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Text.Json.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.ValueTuple.dll
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Buffers.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Formats.Asn1.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Memory.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Text.Json.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\bin\Debug\System.ValueTuple.xml
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.AssemblyReference.cache
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FormMain.resources
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FormSetting.resources
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.FrmMsg.resources
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.InputSn.resources
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.Properties.Resources.resources
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.GenerateResource.cache
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.CoreCompileInputs.cache
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.exe.manifest
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.application
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.csproj.Up2Date
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.exe
+C:\Users\cry30\Desktop\Neat\Arran\Code\Arran_PRETEST_Re_V0\C#_PRETEST\FTTEST\obj\Debug\PRETEST.pdb
