@@ -4,7 +4,7 @@
   <description asmv2:iconFile="MSTEST.ICO" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="PRETEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="PRETEST" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="PRETEST.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRETEST.exe" size="501760">
-      <assemblyIdentity name="PRETEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRETEST.exe" size="503808">
+      <assemblyIdentity name="PRETEST" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/jPfI6X/aiYgOlq0YW7r5g9PXO0Kqqb81SBoIhS+/KU=</dsig:DigestValue>
+        <dsig:DigestValue>RXsERVEbPV7i88Z4BTkTnqyWlYP7GmVjXlyz+usEcYo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

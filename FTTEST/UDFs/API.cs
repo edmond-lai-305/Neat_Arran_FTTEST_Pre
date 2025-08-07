@@ -3198,7 +3198,7 @@ namespace PRETEST
             }
             return true;
         }
-        public static string GetMac(string sn, int useMode ,string tableName)
+        public static string GetMac(string sn, int useMode ,string tableName)//@@@
         {
             if (string.IsNullOrWhiteSpace(sn))
                 throw new ArgumentException("SN 不可為空", nameof(sn));
@@ -3242,7 +3242,7 @@ namespace PRETEST
 
             return null;
         }
-        bool set_MAC_use_mode(string ssn, string mac , string useflag, string tableName)
+        bool set_MAC_use_mode(string ssn, string mac , string useflag, string tableName)//@@@
         {
             if(oraConn == null || oraConn.State != ConnectionState.Open)
             {
@@ -3281,6 +3281,108 @@ namespace PRETEST
                 return false;
             }
         }
+
+        //=================================================================================
+        public static string GetMac02(string sn, int useMode, string tableName)//@@@
+        {
+            // 參數驗證
+            if (string.IsNullOrWhiteSpace(sn))
+                throw new ArgumentException("SN 不可為空", nameof(sn));
+
+            if (string.IsNullOrWhiteSpace(tableName))
+                throw new ArgumentException("表格不可為空", nameof(tableName)); // 修正這裡
+
+            if (oraConn == null || oraConn.State != ConnectionState.Open)
+                throw new InvalidOperationException("Oracle 連線尚未開啟");
+
+            string sql = $@" SELECT KEYCODE
+                    FROM (
+                        SELECT KEYCODE
+                        FROM {tableName}
+                        WHERE SSN is NULL
+                          AND USE_MODE = :useMode
+                          AND USE_FLAG = 0
+                        ORDER BY USE_DATE DESC, INSERT_DATE DESC
+                    )
+                    WHERE ROWNUM = 1";
+
+            try
+            {
+                using (var cmd = new OracleCommand(sql, oraConn))
+                {
+                    cmd.BindByName = true;
+                    // 移除未使用的 :sn 參數
+                    cmd.Parameters.Add(":useMode", OracleDbType.Int32).Value = useMode;
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                            return reader["KEYCODE"]?.ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // 可視需要改為拋出或記錄錯誤
+                Console.WriteLine("查詢 MAC 發生錯誤：" + ex.Message);
+            }
+
+            return null;
+        }
+
+
+        /// <summary>
+        /// 檢查指定SN的MAC地址是否存在並返回MAC地址
+        /// </summary>
+        /// <param name="sn">序列號</param>
+        /// <param name="useMode">使用模式</param>
+        /// <param name="tableName">表名</param>
+        /// <param name="macAddress">返回的MAC地址</param>
+        /// <returns>如果存在返回true，否則返回false</returns>
+        public static bool IsMacExists(string sn, int useMode, string tableName, out string macAddress)
+        {
+            macAddress = null;
+
+            try
+            {
+                // 參數驗證
+                if (string.IsNullOrWhiteSpace(sn) || string.IsNullOrWhiteSpace(tableName))
+                    return false;
+
+                if (oraConn == null || oraConn.State != ConnectionState.Open)
+                    return false;
+
+                string sql = $@" SELECT KEYCODE
+                        FROM {tableName}
+                        WHERE SSN = :sn
+                          AND USE_MODE = :useMode
+                        ORDER BY USE_DATE DESC, INSERT_DATE DESC";
+
+                using (var cmd = new OracleCommand(sql, oraConn))
+                {
+                    cmd.BindByName = true;
+                    cmd.Parameters.Add(":sn", OracleDbType.Varchar2).Value = sn;
+                    cmd.Parameters.Add(":useMode", OracleDbType.Int32).Value = useMode;
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            macAddress = reader["KEYCODE"]?.ToString();
+                            return true;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"檢查 MAC 存在性發生錯誤：{ex.Message}");
+            }
+
+            return false;
+
+        }
+        //===============================================================================
         public static string FormatMac(string mac)
         {
             if (string.IsNullOrWhiteSpace(mac) || mac.Length != 12)

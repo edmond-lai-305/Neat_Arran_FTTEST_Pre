@@ -10,6 +10,8 @@ using System.IO;
 using PRETEST.AppConfig;
 using PRETEST.Database;
 using PRETEST.SDriver;
+using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace PRETEST
 {
@@ -569,12 +571,29 @@ namespace PRETEST
                 return false;
             }
 
-            SetMsg("取得藍芽MAC, Lấy địa chỉ MAC Bluetooth", UDF.COLOR.WORK);
-            string btmac = FormatMac(GetMac(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
+            SetMsg("取得藍芽MAC, Lấy địa chỉ MAC Bluetooth", UDF.COLOR.WORK);//@@@
+           //===============================
+            string btmac = "";
+            string existingMac = "";
+        
+            // 簡單檢查是否存在
+            if (IsMacExists(textBoxSn.Text, 0, "INSP_BARRAKEY_T", out existingMac))
+            {
+                SetMsg("該SN已有MAC地址", UDF.COLOR.WORK);
+                // 直接使用數據庫中該SN對應的MAC地址
+                 btmac = FormatMac(existingMac.ToLower());
+            }
+            else
+            {
+                // 該SN沒有MAC地址，獲取新的
+                 btmac = FormatMac(GetMac02(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
+            }
+            //===============================
+            //string btmac = FormatMac(GetMac(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
             //string btmac = "c4:63:fb:1b:de:ff";
             SetMsg($"BT mac: {btmac}", UDF.COLOR.WORK);
 
-            SetMsg("設定藍芽MAC, Đặt địa chỉ MAC Bluetooth", UDF.COLOR.WORK);
+            SetMsg("設定藍芽MAC, Đặt địa chỉ MAC Bluetooth", UDF.COLOR.WORK);//@@@
             cmd = $"adb shell su 0 am startservice -n com.amtran.factory/.FactoryService --es Action SetBTMAC --es btMac {btmac}";
             regString = @"Starting service: Intent \{ cmp=com.amtran.factory/.FactoryService \(has extras\) \}";
             try
@@ -699,7 +718,24 @@ namespace PRETEST
             }
             //@@@
             SetMsg("取得WiFiMAC, Lấy địa chỉ MAC WiFi", UDF.COLOR.WORK);
-            string wifimac = FormatMac(GetMac(textBoxSn.Text, 2, "INSP_BARRAKEY_T").ToLower());
+            //===============================
+            string wifimac = "";
+            existingMac = "";
+
+            // 簡單檢查是否存在
+            if (IsMacExists(textBoxSn.Text, 2, "INSP_BARRAKEY_T", out existingMac))
+            {
+                SetMsg("該SN已有MAC地址", UDF.COLOR.WORK);
+                // 直接使用數據庫中該SN對應的MAC地址
+                wifimac = FormatMac(existingMac.ToLower());
+            }
+            else
+            {
+                // 該SN沒有MAC地址，獲取新的
+                wifimac = FormatMac(GetMac02(textBoxSn.Text, 2, "INSP_BARRAKEY_T").ToLower());
+            }
+            //===============================
+            //string wifimac = FormatMac(GetMac(textBoxSn.Text, 2, "INSP_BARRAKEY_T").ToLower());
             //string wifimac = "c4:63:fb:1c:63:d0";
             SetMsg($"Wifi mac: {wifimac}", UDF.COLOR.WORK);
 
@@ -828,7 +864,24 @@ namespace PRETEST
             }
 
             SetMsg("取得乙太網MAC, Lấy địa chỉ MAC Ethernet", UDF.COLOR.WORK);
-            string ethmac = FormatMac(GetMac(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
+            //===============================
+            string ethmac = "";
+            existingMac = "";
+
+            // 簡單檢查是否存在
+            if (IsMacExists(textBoxSn.Text, 1, "INSP_BARRAKEY_T", out existingMac))
+            {
+                SetMsg("該SN已有MAC地址", UDF.COLOR.WORK);
+                // 直接使用數據庫中該SN對應的MAC地址
+                ethmac = FormatMac(existingMac.ToLower());
+            }
+            else
+            {
+                // 該SN沒有MAC地址，獲取新的
+                ethmac = FormatMac(GetMac02(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
+            }
+            //===============================
+            //string ethmac = FormatMac(GetMac(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
             //string ethmac = "c4:63:fb:1c:4a:da";
             SetMsg($"Ethernet mac: {ethmac}", UDF.COLOR.WORK);
 
