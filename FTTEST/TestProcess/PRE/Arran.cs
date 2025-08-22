@@ -336,6 +336,33 @@ namespace PRETEST
                 return false;
             }
 
+            //Add new command because this is important
+            SetMsg("新增nf_systemctl clear-lockscreen-pw -f命令以避免重啟出現password狀況", UDF.COLOR.WORK);
+            //Added nf_systemctl clear-lockscreen-pw -f command to avoid password issue during reboot
+            cmd = "adb shell su root nf_systemctl clear-lockscreen-pw -f";
+            
+            try
+            {
+                while (!RunAdbCmd(cmd, out rst))
+                {
+                    retry++;
+                    if (retry > 3)
+                    {
+                        SetMsg("找不到機器, FAIL, Không tìm thấy máy", UDF.COLOR.FAIL);
+                        return false;
+                    }
+                    SetMsg($"重新下指令:{retry}, Ra lệnh lại:{retry}", UDF.COLOR.WORK);
+                    Delay(1000);
+                }
+            }
+            catch (Exception e)
+            {
+                SetMsg(e.Message, UDF.COLOR.FAIL);
+                return false;
+            }
+
+            //--------------------------------
+
             SetMsg("檢查序號,Kiểm tra số sê-ri", UDF.COLOR.WORK);
             cmd = "adb shell am startservice -n com.amtran.factory/.FactoryService --es Action GetSN";
             regString = @"Starting service: Intent \{ cmp=com.amtran.factory/.FactoryService \(has extras\) \}";
@@ -575,9 +602,11 @@ namespace PRETEST
            //===============================
             string btmac = "";
             string existingMac = "";
-        
+
             // 簡單檢查是否存在
-            if (IsMacExists(textBoxSn.Text, 0, "INSP_BARRAKEY_T", out existingMac))
+            if (IsMacExists(textBoxSn.Text, 1, "INSP_BARRAKEY_T", out existingMac))
+            //if (IsMacExists(textBoxSn.Text, 0, "INSP_BARRAKEY_T", out existingMac))
+
             {
                 SetMsg("該SN已有MAC地址", UDF.COLOR.WORK);
                 // 直接使用數據庫中該SN對應的MAC地址
@@ -586,7 +615,8 @@ namespace PRETEST
             else
             {
                 // 該SN沒有MAC地址，獲取新的
-                 btmac = FormatMac(GetMac02(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
+                 btmac = FormatMac(GetMac02(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
+                //btmac = FormatMac(GetMac02(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
             }
             //===============================
             //string btmac = FormatMac(GetMac(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
@@ -869,7 +899,8 @@ namespace PRETEST
             existingMac = "";
 
             // 簡單檢查是否存在
-            if (IsMacExists(textBoxSn.Text, 1, "INSP_BARRAKEY_T", out existingMac))
+            if (IsMacExists(textBoxSn.Text, 0, "INSP_BARRAKEY_T", out existingMac))
+            //if (IsMacExists(textBoxSn.Text, 1, "INSP_BARRAKEY_T", out existingMac))
             {
                 SetMsg("該SN已有MAC地址", UDF.COLOR.WORK);
                 // 直接使用數據庫中該SN對應的MAC地址
@@ -878,7 +909,8 @@ namespace PRETEST
             else
             {
                 // 該SN沒有MAC地址，獲取新的
-                ethmac = FormatMac(GetMac02(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
+                ethmac = FormatMac(GetMac02(textBoxSn.Text, 0, "INSP_BARRAKEY_T").ToLower());
+                //ethmac = FormatMac(GetMac02(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
             }
             //===============================
             //string ethmac = FormatMac(GetMac(textBoxSn.Text, 1, "INSP_BARRAKEY_T").ToLower());
